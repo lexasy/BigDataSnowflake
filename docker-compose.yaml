@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: lexasy
+      POSTGRES_PASSWORD: qwerty
+      POSTGRES_DB: lab
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    
+volumes:
+  postgres_data:

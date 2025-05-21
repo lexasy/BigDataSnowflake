@@ -1,0 +1,4 @@
+*.toml
+*.python-version
+*.lock
+.venv
