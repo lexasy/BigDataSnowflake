@@ -149,6 +149,7 @@ create table public.sales_fact (
 Теперь у нас получилась такая схема в базе данных:
 
 ![](image1.png)
+
 Теперь заполним эти таблицы данными (эти скрипты можно посмотреть в файле [DML.sql](DML.sql)):
 ```sql
 insert into public.customer_dimension (first_name, last_name, age, email, country, postal_code, pet_type, pet_name, pet_breed)
